@@ -7,10 +7,10 @@ function Intro() {
         Hey, Im Rax !
       </h1>
       <p className="textbase md:text-xl mb-3 font medium">
-        I working on being a software engineer and web developer.
+        I am working on being a software engineer and web developer.
       </p>
       <p className="text-sm max-w-xl mb-6 font-bold">
-        This is my portfolio website
+        This is my minimalistic website
       </p>
     </div>
   );
