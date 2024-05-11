@@ -11,7 +11,9 @@ function App() {
     <div className="App">
       <Sidebar />
       <Intro />
-      {/* <Portfolio /> */}
+      <Portfolio />
+      <Contact />
+      <Footer />
     </div>
   );
 }
