@@ -6,7 +6,7 @@ function Intro() {
   return (
     <div
       id="intro"
-      className="flex items-center justify-center flex-col text-center pb-6"
+      className="flex items-center justify-center flex-col text-center pb-6 m-auto"
     >
       <img
         className="w-full h-screen object-cover object-left"

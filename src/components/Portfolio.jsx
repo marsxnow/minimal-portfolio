@@ -1,15 +1,12 @@
 import React from "react";
 import portfolio from "../items/portfolio";
 import PortfolioItem from "./PortfolioItem";
+import Title from "./Title";
 
 function Portfolio() {
   return (
-    <div>
-      <h1 className="text-4xl font-bold text-center my-8">Projects</h1>
-      <div
-        id="project"
-        className="flex flex-col md:flex-row items-center justify-center px-16 mb-16"
-      >
+    <div id="project">
+      <div className="flex flex-col md:flex-row items-center justify-center px-16 py-16">
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
           {portfolio.map((item) => (
             <PortfolioItem
