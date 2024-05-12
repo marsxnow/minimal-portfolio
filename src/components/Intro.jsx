@@ -10,7 +10,7 @@ function Intro() {
     >
       <img
         className="w-full h-screen object-cover object-left"
-        src="https://media.discordapp.net/attachments/1179276305729073232/1217525991224639649/20240313_103302.jpg?ex=663db1b0&is=663c6030&hm=fa14b142e79efdc5418f3f1bcf1781d0a8cec8157af2cd94f8b8cc9906c99359&format=webp&width=854&height=1138&"
+        src="./img/lightskin.jpg"
       />
       <div className="w-full h-screen absolute top-0 left-0 bg-white/50">
         <div className="max-w-[700] m-auto h-full flex flex-col justify-center items-center">
