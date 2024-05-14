@@ -7,7 +7,7 @@ function Contact() {
         <form
           action="https://getform.io/slug"
           method="POST"
-          className="flex flex-col w-[75%] mx-auto"
+          className="flex flex-col w-[90%] mx-auto"
         >
           <Title>Contact</Title>
           <input
@@ -25,6 +25,7 @@ function Contact() {
           <textarea
             name="message"
             id="Message"
+            placeholder="Leave me a message!"
             rows="10"
             className="p-2 mb-4 bg-transparent border-2 rounded-mb focus:outline-none"
           />
