@@ -13,7 +13,7 @@ const sidebar = () => {
     setSidebar(!sidebar);
   };
   return (
-    <div className="sidebar">
+    <div className="sidebar scroll-smooth">
       <AiOutlineMenu
         onClick={handleSidebar}
         className="absolute top-4 right-4 z-[99] md:hidden "
@@ -23,7 +23,7 @@ const sidebar = () => {
           <a
             onClick={handleSidebar}
             href="#intro"
-            className="w-[75%] flex justify-center items-center rounded-full shadow-lg bg-gray-100 shadow-grey-40 m-2 p-4 cursor-pointer hover:scale-110 ease-in duration-200"
+            className="scroll-smooth w-[75%] flex justify-center items-center rounded-full shadow-lg bg-gray-100 shadow-grey-40 m-2 p-4 cursor-pointer hover:scale-110 ease-in duration-200"
           >
             <AiOutlineHome size={20} />
             <span className="pl-4">Home</span>
@@ -31,7 +31,7 @@ const sidebar = () => {
           <a
             onClick={handleSidebar}
             href="#project"
-            className="w-[75%] flex justify-center items-center rounded-full shadow-lg bg-gray-100 shadow-grey-40 m-2 p-4 cursor-pointer hover:scale-110 ease-in duration-200"
+            className="scroll-smooth w-[75%] flex justify-center items-center rounded-full shadow-lg bg-gray-100 shadow-grey-40 m-2 p-4 cursor-pointer hover:scale-110 ease-in duration-200"
           >
             <AiOutlineProject size={20} />
             <span className="pl-4">Projects</span>
@@ -78,7 +78,7 @@ const sidebar = () => {
           </a>{" "}
           <a
             href="#contact"
-            className="rounded-full shadow-lg bg-grey-100 shadow-grey-400 m-2 p-4 cursor-pointer hover-scale-110 ease-in duration-300"
+            className="scroll-smooth rounded-full shadow-lg bg-grey-100 shadow-grey-400 m-2 p-4 cursor-pointer hover-scale-110 ease-in duration-300"
           >
             <AiOutlineMail size={20} />
           </a>
