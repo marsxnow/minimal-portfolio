@@ -21,6 +21,7 @@ const sidebar = () => {
       {sidebar ? (
         <div className="fixed w-full h-screen bg-white/90 flex flex-col justify-center items-center z-20">
           <a
+            onClick={handleSidebar}
             href="#intro"
             className="w-[75%] flex justify-center items-center rounded-full shadow-lg bg-gray-100 shadow-grey-40 m-2 p-4 cursor-pointer hover:scale-110 ease-in duration-200"
           >
@@ -28,6 +29,7 @@ const sidebar = () => {
             <span className="pl-4">Home</span>
           </a>
           <a
+            onClick={handleSidebar}
             href="#project"
             className="w-[75%] flex justify-center items-center rounded-full shadow-lg bg-gray-100 shadow-grey-40 m-2 p-4 cursor-pointer hover:scale-110 ease-in duration-200"
           >
@@ -35,6 +37,7 @@ const sidebar = () => {
             <span className="pl-4">Projects</span>
           </a>
           <a
+            onClick={handleSidebar}
             href="#resume"
             className="w-[75%] flex justify-center items-center rounded-full shadow-lg bg-gray-100 shadow-grey-40 m-2 p-4 cursor-pointer hover:scale-110 ease-in duration-200"
           >
@@ -42,6 +45,7 @@ const sidebar = () => {
             <span className="pl-4">Resume</span>
           </a>
           <a
+            onClick={handleSidebar}
             href="#contact"
             className="w-[75%] flex justify-center items-center rounded-full shadow-lg bg-gray-100 shadow-grey-40 m-2 p-4 cursor-pointer hover:scale-110 ease-in duration-200"
           >

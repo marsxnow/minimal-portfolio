@@ -1,6 +1,6 @@
 import React from "react";
 import { TypeAnimation } from "react-type-animation";
-import { FaTwitter, FaLinkedinIn } from "react-icons/fa";
+import { FaTwitter, FaLinkedinIn, FaGithub } from "react-icons/fa";
 
 function Intro() {
   return (
@@ -17,16 +17,16 @@ function Intro() {
           <h1 className="text-4xl md:text-7xl mb-1 md:mb-3 font-bold">
             Hey, Im Rax !
           </h1>
-          <h2 className="textbase md:text-xl sm:text-3xl mb-3 font-medium flex">
+          <h2 className=" md:text-xl sm:text-xl mb-3 font-medium flex">
             <TypeAnimation
               sequence={[
-                "I am a student",
+                "I am a student at CSUF,",
                 1000,
-                "I am an aspiring web developer",
+                "I am a aspiring web developer,",
                 1000,
-                "I am an aspiring software engineer",
+                "I am a aspiring software engineer,",
                 1000,
-                "I am Mexican",
+                "I am alwasys learning new things!",
                 1000,
               ]}
               wrapper="span"
@@ -35,9 +35,19 @@ function Intro() {
               repeat={Infinity}
             />
           </h2>
-          <div className="flex justify-between max-w-[100px] w-full">
-            <FaTwitter className="cursor-pointer" size={20} />
-            <FaLinkedinIn className="cursor-pointer" size={20} />
+          <div className="flex justify-between max-w-[100px] w-full mt-2">
+            <a href="https://twitter.com/newpateks" target="_blank">
+              <FaTwitter className="cursor-pointer" size={20} />
+            </a>
+            <a href="https://github.com/marsxnow" target="_blank">
+              <FaGithub className="cursor-pointer" size={20} />
+            </a>
+            <a
+              href="https://www.linkedin.com/in/raxel-ortiz-1958b526b/"
+              target="_blank"
+            >
+              <FaLinkedinIn className="cursor-pointer" size={20} />
+            </a>
           </div>
         </div>
       </div>
