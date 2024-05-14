@@ -28,6 +28,8 @@ function Intro() {
                 1000,
                 "I am alwasys learning new things!",
                 1000,
+                "Check out my work below!",
+                1000,
               ]}
               wrapper="span"
               speed={50}
@@ -36,9 +38,9 @@ function Intro() {
             />
           </h2>
           <div className="flex justify-between max-w-[100px] w-full mt-2">
-            {/* <a href="https://twitter.com/newpateks" target="_blank"> */}
-            {/*   <FaTwitter className="cursor-pointer" size={20} /> */}
-            {/* </a> */}
+            <a href="https://twitter.com/newpateks" target="_blank">
+              <FaTwitter className="cursor-pointer" size={20} />
+            </a>
             <a href="https://github.com/marsxnow" target="_blank">
               <FaGithub className="cursor-pointer" size={20} />
             </a>
