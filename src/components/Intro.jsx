@@ -26,9 +26,9 @@ function Intro() {
               sequence={[
                 "I am a student at CSUF,",
                 1000,
-                "I am a aspiring web developer,",
+                "I am an aspiring web developer,",
                 1000,
-                "I am a aspiring software engineer,",
+                "I am an aspiring software engineer,",
                 1000,
                 "I am always learning new things!",
                 1000,
