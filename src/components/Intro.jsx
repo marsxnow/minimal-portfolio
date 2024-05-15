@@ -30,7 +30,7 @@ function Intro() {
                 1000,
                 "I am a aspiring software engineer,",
                 1000,
-                "I am alwasys learning new things!",
+                "I am always learning new things!",
                 1000,
                 "Check out my work below!",
                 1000,
