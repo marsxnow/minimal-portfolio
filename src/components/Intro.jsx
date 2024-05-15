@@ -4,20 +4,24 @@ import { FaTwitter, FaLinkedinIn, FaGithub } from "react-icons/fa";
 
 function Intro() {
   return (
+    // Intro Section of the website
     <div
       id="intro"
       className="flex items-center justify-center flex-col text-center pb-6 m-auto"
     >
+      {/* Background Image */}
       <img
         className="w-full h-screen object-cover object-left"
         src="./img/lightskin.jpg"
       />
       <div className="w-full h-screen absolute top-0 left-0 bg-white/50">
+        {/* Content of the Intro Section */}
         <div className="max-w-[700] m-auto h-full flex flex-col justify-center items-center">
           <h1 className="text-4xl md:text-7xl mb-1 md:mb-3 font-bold">
             Hey, Im Rax !
           </h1>
           <h2 className=" md:text-xl sm:text-xl mb-3 font-medium flex">
+            {/* Type Animation for the Intro Section */}
             <TypeAnimation
               sequence={[
                 "I am a student at CSUF,",
@@ -37,6 +41,7 @@ function Intro() {
               repeat={Infinity}
             />
           </h2>
+          {/* Social Media Links */}
           <div className="flex justify-between max-w-[100px] w-full mt-2">
             <a href="https://twitter.com/newpateks" target="_blank">
               <FaTwitter className="cursor-pointer" size={20} />

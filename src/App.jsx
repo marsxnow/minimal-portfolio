@@ -8,6 +8,7 @@ import Sidebar from "./components/Sidebar";
 
 function App() {
   return (
+    // Main App Component and the layout of the website
     <div className="App">
       <Sidebar />
       <Intro />

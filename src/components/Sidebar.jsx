@@ -6,14 +6,16 @@ import {
   AiOutlineMail,
 } from "react-icons/ai";
 import { BsPerson } from "react-icons/bs";
-
+// Sidebar Component
 const sidebar = () => {
   const [sidebar, setSidebar] = useState(false);
   const handleSidebar = () => {
     setSidebar(!sidebar);
   };
   return (
+    // Sidebar
     <div className="sidebar scroll-smooth">
+      {/* Sidebar Content when screen is smaller*/}
       <AiOutlineMenu
         onClick={handleSidebar}
         className="absolute top-4 right-4 z-[99] md:hidden "
@@ -56,6 +58,7 @@ const sidebar = () => {
       ) : (
         ""
       )}
+      {/* Sidebar Button / Default mode*/}
       <div className="md:block hidden fixed top-[25%] z-10">
         <div className="flex flex-col">
           <a

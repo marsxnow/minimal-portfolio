@@ -2,14 +2,18 @@ import React from "react";
 import Title from "./Title";
 function Contact() {
   return (
+    // Contact Section of the website
     <div id="contact" className=" flex flex-col mb-10 mx-auto py-8">
+      {/* Title of the Contact Section */}
       <div className="flex jusify-center items-center">
+        {/* Contact Form */}
         <form
           action="https://getform.io/slug"
           method="POST"
           className="flex flex-col w-[90%] mx-auto"
         >
           <Title>Contact</Title>
+          {/* Input Fields for the Contact Form */}
           <input
             type="text"
             name="name"
